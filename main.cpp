@@ -19,6 +19,11 @@ void LaterInYear(int d1, int m1, int d2, int m2)
 	else 
 		cout << d2 << " " << m2;
 }
+
+int DaysInYear(int year)
+{
+	return IsLeapYear(year) ? 366 : 365;
+}
 int main(){
 	
 }
